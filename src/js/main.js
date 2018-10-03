@@ -37,7 +37,7 @@ registerVisitatorButton.addEventListener('click', () => {
   const celular = document.getElementById('celular').value;
   const aQuienVisita = document.getElementById('workerInput').value;
   const company = document.getElementById('company').value;
-  const photo = document.getElementById('canvas').value;
+  const photo = document.getElementById('snap').value;
 
   console.log(name.value);
   console.log(company);
@@ -69,3 +69,11 @@ registerAdministratorButton.addEventListener('click', () => {
   })
   alert("Estimado colaborador su Registro fue exitoso")
 })
+
+
+// const imagen = () => {
+//   return hidden_canvas.toDataURL('image/png');
+//   const storageRef = firebase.storage().ref();
+//   const mountainImagesRef = storageRef.child('image/png');
+//   // const mountainImagesRef = storageRef.child('images/mountains.jpg');
+// }
